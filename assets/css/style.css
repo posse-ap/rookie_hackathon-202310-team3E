@@ -260,7 +260,9 @@
 
 
 /* 友達 */
-
+.body-section{
+    background-color: #fff9eb;
+}
 .container{
     max-width: 980px;
     margin: 0 auto;
@@ -270,11 +272,17 @@
 
 .section{
     padding-top: 80px;
-    margin-top: -80px;
+    margin-top: 60px;
 }
 
 .section-body{
     margin-top: 40px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.title-top{
+    margin-top: 20px;
 }
 
 .title{
@@ -336,7 +344,7 @@
 }
 .event-itemBody{
     padding: 20px;
-    box-shadow: 10px 10px 0 0px;
+
 }
 
 .event-itemImage img{
@@ -348,7 +356,7 @@
     font-size: 14px;
     line-height: 1.8;
     letter-spacing: 0.1em;
-    background-color: var(--primary-color);
+    background-color: rgb(243, 155, 243);
     color: var(--white-color);
     border-radius: 5em;
     padding: 0 12px;
