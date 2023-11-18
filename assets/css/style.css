@@ -228,6 +228,10 @@
     padding: 20px;
 }
 
+.newsite_name :hover{
+    color: #7F7FFB;
+}
+
 
 .newsite-itemName {
     /* margin-top: 4px; */
