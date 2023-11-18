@@ -58,32 +58,54 @@
         </section>
 
         <section id="life" class="section life">
-            <div class="inner inner--small">
-            <h2 class="top_page title" id="life">POSSEの生活</h2>
-                <div class="life__inner" >
-                    <div class="life__tab" role="tablist">
-                        <button class="life__tab__button" role="tab" aria-controls="panel1" aria-selected="true">活動</button>
-                        <button class="life__tab__button" role="tab" aria-controls="panel2" aria-selected="false">1週間の過ごし方</button>
-                    </div>
-                    <div class="life__panel">
-                        <div id="panel1" role="tabpanel" class="life__panel__item">
-                            <h3 class="life__panel__item__title">ミートアップ</h3>
-                            <p></p>
-                            <h3 class="life__panel__item__title">横もく</h3>
-                            <p></p>
-                            <h3 class="life__panel__item__title">縦もく</h3>
-                        </div>
-                        <div id="panel2" role="tabpanel" class="life__panel__item" hidden>
-                            <div></div>
-                            <div></div>
-                        </div>
-                    </div>
-                </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
+            <class class="inner inner--small">
+            <h2 class="top_page title">POSSEの生活</h2>
+                <div id="label-container">
+                    <input type="checkbox" class="checkBtn" id="hoge1" checked="true">
+                    <label id="hoge1Label" for="hoge1">POSSEの活動</label>
+                    <input type="checkbox" class="checkBtn" id="hoge2">
+                    <label id="hoge2Label" for="hoge2">一週間の予定</label>
+                </div>
+            
+                <!-- タブの内容部分 -->
+                <div id="left-container">
+                    <ul class="life-item">
+                        <li class="life-item-contaner">
+                            <div>
+                                <p class="life-item-title">ミートアップ</p>
+                                <p class="life-item-text">毎週月曜、POSSE③がオンラインで全員集まる会。<br>
+                                テーマについて話し合ったり、社会人の話を聞いたり等、様々な活動をします。</p>
+                            </div>
+                            <figure>
+                                <img src="./assets/img/mu.jpg" height="130px" width="250px" />
+                            </figure>
+                        </li>
+                        <li class="life-item-contaner">
+                            <div>
+                                <p class="life-item-title">横もく</p>
+                                <p class="life-item-text">同期と一緒にプログラミングをする時間。<br>対面で行うことも多く、教え会うことでさらに成長できます。</p>
+                            </div>
+                            <figure>
+                                <img src="./assets/img/yoko.jpg" height="130px" width="250px" />
+                            </figure>
+                        </li>
+                        <li class="life-item-contaner">
+                            <div>
+                                <p class="life-item-title">縦もく</p>
+                                <p class="life-item-text">先輩にわからないところを教えて貰う時間。<br>先輩が親身になって教えてくれます。</p>
+                            </div>
+                            <figure>
+                                <img src="./assets/img/tate.jpg" height="130px" width="250px" />
+                            </figure>
+                        </li>
+                    </ul>
+                </div>
+                <div id="right-container">
+                    <h1>hoge2タブ</h1>
+                    <p>hoge2hoge2</p>
+                </div>
+            </class>
         </section>
         <section id="admission">
             <h2 class="top_page title">入会方法</h2>
