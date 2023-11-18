@@ -300,6 +300,7 @@ cursor:pointer;
 
 .body-section{
     background-color: #fff9eb;
+    max-width: 100%;
 }
 .container{
     max-width: 980px;
@@ -452,6 +453,24 @@ cursor:pointer;
 }
 
 
+.splide__arrow{
+    width: 40px !important;
+    height: 40px !important;
+    border: solid 1.5px #cad !important;
+    background-color: #FFFFFF !important;
+    opacity: 1 !important;
+}
+
+.splide__pagination__page.is-active {
+    background: #cad;
+}
+
+.splide__pagination__page {
+    background: #cad;
+}
+
+
+
 /* ネクストページ→ */
 .next{
     display: flex ;
@@ -468,6 +487,7 @@ cursor:pointer;
     margin: 0; 
     padding: 0;
     }
+
 
 
 /* フッター */
