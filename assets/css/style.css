@@ -456,6 +456,8 @@ cursor:pointer;
     padding-top: 2rem;
     padding-bottom: 2rem;
     font-family: 'Noto Sans JP', sans-serif;
+    background-color: #fff;
+    opacity: 50%;
 }
 
 .normalTitle2{
@@ -489,6 +491,13 @@ cursor:pointer;
 
 .splide__pagination__page {
     background: #cad;
+}
+
+/*がくちか*/
+.jobTop{
+    background: url(../img/gakutika.jpg) center center / cover no-repeat;
+    background-size: cover;
+    height: 25rem;
 }
 
 
