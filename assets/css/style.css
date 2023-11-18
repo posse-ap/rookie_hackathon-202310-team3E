@@ -85,84 +85,64 @@
 .top_page title{
     margin-top: 40px;
 }
-/* タブ切り替え */
 
-.inner{
-    margin: 0 auto;
-    max-width: 720px;
-}
-.life__tab {
-    display: flex;
-    gap: 24px;
-}
-.life__tab__button {
-    background: #a5a5a5;
-    color: #fff;
-    border-radius: 10px 10px 0 0;
-    width: 50%;
-    text-align: center;
-    padding: 20px 8px;
-}
-.life__tab__button[aria-selected=true] {
-    background: #333;
-    font-weight: bold;
-}
-.life__panel {
-    border: solid 1px #333;
-    padding: 32px 32px 40px;
-}
-.life__panel__item[aria-hidden=true] {
-    display: none;
-}
-.life__panel__item__title {
-    font-size: 18px;
-    font-weight: bold;
-}
-.life__panel__item__text {
-    margin-top: 24px;
-}
-
-/* .life{
+.title{
     margin-top: 100px;
+    margin-bottom:50px;
 }
-
-.container{
+/* タブ切り替え */
+#label-container {
+    width: 40%;
     margin: 0 auto;
+    text-align: center;
 }
 
-.tab_group{
-    display: flex;
-    justify-content: center;
+#hoge1Label {
+    padding: 10px 10px 0 10px;
+    border-radius: 3px;
+    transition: 0.3s;
+    background-color: rgb(186, 238, 255);
+    height: 200px;
 }
 
-.tab{
-flex-grow: 1;
-padding:5px;
-list-style:none;
-border:solid 1px #CCC;
-text-align:center;
-cursor:pointer;
+#hoge2Label {
+    padding: 10px 10px 0 10px;
+    border-radius: 3px;
+    transition: 0.3s;
 }
 
-.panel_group{
-    height:100px;
-  border:solid 1px #CCC;
-  border-top:none;
-  background:#eee;
+/* hoge1タブ */
+#left-container {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: 0.2s;
+    background-color: rgb(186, 238, 255);
 }
 
-.panel{
+/* hoge2タブ */
+#right-container {
     display: none;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: 0.2s;
 }
 
-.tab.is-active{
-    background:#F00;
-  color:#FFF;
-  transition: all 0.2s ease-out;
+.life-item{
+    margin: 0px 10px 5px 10px;
 }
-.panel.is-show{
-    display: block;
-} */
+
+.life-item-title{
+    font: bold;
+    font-size: 32px;
+}
 
 /* 入会方法 */
 .admission-list{
