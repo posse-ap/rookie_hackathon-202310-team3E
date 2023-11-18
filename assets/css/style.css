@@ -124,6 +124,7 @@
 .about-image{
     overflow: hidden;
     border-radius: 25% 10%;
+    width: 400px;
 }
 
 .about-text{
@@ -188,3 +189,6 @@
     font-weight: bold;
 }
 
+img{
+    max-width: 100%;
+}
