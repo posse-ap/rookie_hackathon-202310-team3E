@@ -89,7 +89,41 @@
 .container{
     margin: 0 auto;
 }
-.life__inner{
+
+.tab_group{
+    display: flex;
+    justify-content: center;
+}
+
+.tab{
+flex-grow: 1;
+padding:5px;
+list-style:none;
+border:solid 1px #CCC;
+text-align:center;
+cursor:pointer;
+}
+
+.panel_group{
+    height:100px;
+  border:solid 1px #CCC;
+  border-top:none;
+  background:#eee;
+}
+
+.panel{
+    display: none;
+}
+
+.tab.is-active{
+    background:#F00;
+  color:#FFF;
+  transition: all 0.2s ease-out;
+}
+.panel.is-show{
+    display: block;
+}
+/* .life__inner{
     max-width: 720px;
     margin: 0 auto;
 }
@@ -134,7 +168,7 @@
 }
 .life__panel__item__text {
     margin-top: 24px;
-}
+} */
 
 
 
@@ -264,7 +298,9 @@
 
 
 /* 友達 */
-
+.body-section{
+    background-color: #fff9eb;
+}
 .container{
     max-width: 980px;
     margin: 0 auto;
@@ -274,11 +310,17 @@
 
 .section{
     padding-top: 80px;
-    margin-top: -80px;
+    margin-top: 60px;
 }
 
 .section-body{
     margin-top: 40px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.title-top{
+    margin-top: 20px;
 }
 
 .title{
@@ -340,7 +382,7 @@
 }
 .event-itemBody{
     padding: 20px;
-    box-shadow: 10px 10px 0 0px;
+
 }
 
 .event-itemImage img{
@@ -352,7 +394,7 @@
     font-size: 14px;
     line-height: 1.8;
     letter-spacing: 0.1em;
-    background-color: var(--primary-color);
+    background-color: rgb(243, 155, 243);
     color: var(--white-color);
     border-radius: 5em;
     padding: 0 12px;
@@ -367,6 +409,31 @@
     font-weight: bold;
 }
 
+.topSection{
+    padding: 0 0 25px 0;
+}
+
+.friendTop{
+    background: url(../img/nakamayukie.jpg) center center / cover no-repeat;
+    background-size: cover;
+    height: 25rem;
+}
+
+.normalposition{
+    text-align: center;
+    padding-top: 11rem;
+}
+.normalTitle{
+    border: solid 2px #cad;
+    font-size: 36px;
+    line-height: 1.5;
+    letter-spacing: .05em;
+    font-weight: bold;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
 
 /* フッター */
 .footer{
