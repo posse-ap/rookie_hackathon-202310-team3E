@@ -1,3 +1,4 @@
+/* ヘッダー */
 .header {
     display: flex;
     align-items: center;
@@ -6,7 +7,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #F8ebde;
+    background-color: #ffffff;
     border-bottom: solid 1px #EEEEEE;
     padding: 0 24px;
     z-index: 10000;
@@ -21,6 +22,7 @@
     display:flex;
     align-items: center;
     margin-left: auto;
+    margin-right:auto;
     gap: 48px;
     list-style:none;
 }
@@ -31,13 +33,14 @@
 }
 
 .header-navItem{
-    color: #fccb00;
+    color: #666464;
     font-weight: bold;
     font-size: 14px;
 }
 
+/* メインビジュアル */
 .mainvisual{
-    background-color:#fccb00;
+    background-color:#cad;
     height: 60vh;
     padding: 20px 24px;
     display: flex;
@@ -61,30 +64,115 @@
 }
 
 .mainvisual-tip{
-    background: #a5a5a5;
+    background-color: #888;
     color: #fff;
     border-radius: 10px 10px 10px 10px;
-    width: 33.3333%;
-    height: 100px;
+    width:300px;
+    height: 150px;
     text-align: center;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 80%;
+}
+
+.mainvisual-tip:hover{
+    background-color: #333;
+}
+
+/* タブ切り替え */
+.container{
+    margin: 0 auto;
+}
+.life__inner{
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.life__tab {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.life__tab__button {
+    background: #a5a5a5;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+    width: 33.3333%;
+    text-align: center;
+    padding: 20px 8px;
+}
+.life__tab__button[aria-selected=true] {
+    background: #333;
+    font-weight: bold;
+}
+.life__panel {
+    border: solid 1px #333;
+    padding: 32px 32px 40px;
+}
+.life__panel__item[aria-hidden=true] {
+    display: none;
+}
+.life__panel__item__title {
+    font-size: 18px;
+    font-weight: bold;
+}
+.life__panel__item__text {
+    margin-top: 24px;
 }
 
 
 
 /* プログラミング */
+.ITpro_container{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
 .title{
     font-size: 30px;
     color: black;
     align-items: center;
-
+    padding: 50px;
 }
 
 .title_exp{
     font-size: 20px;
     color: black;
-    align-items: center;
+    text-align: center;
 }
+
+.newsite_item{
+    border-radius: 10px;
+    overflow: hidden;
+    width: 320px;
+    flex-shrink: 0; 
+    background-color: #F7F9FB;
+    text-align: center;
+}
+
+.newsite_img{
+    width: 100%;
+    height: 200px;
+}
+
+.newsite_name{
+    padding: 20px;
+}
+
+
+.newsite-itemName {
+    margin-top: 4px;
+    font-size: 18px;
+    line-height: 1.8;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+}
+    
+
 /* 友達 */
+
 .container{
     max-width: 980px;
     margin: 0 auto;
@@ -112,3 +200,118 @@
     display: block;
     font-weight: bold;
 }
+.about-column{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    align-items: center;
+}
+
+.about-image{
+    overflow: hidden;
+    border-radius: 25% 10%;
+}
+
+.about-text{
+    font-size: 14px;
+    line-height: 1.8;
+    letter-spacing: .05em;
+}
+
+.event-list{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.event-slide{
+    margin: 0   auto;
+}
+
+.event-slideTrack{
+    overflow: visible;
+}
+
+.event-item{
+    border-radius: 10px;
+    overflow: hidden;
+    width: 320px;
+    flex-shrink: 0;
+    background-color: var(--primary-light-color);
+    text-align: center;
+}
+
+.event-contentText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.event-itemBody{
+    padding: 20px;
+    box-shadow: 10px 10px 0 0px;
+}
+
+.event-itemImage img{
+    width: 100%;
+    height: 200px;
+}
+
+.event-itemDate{
+    font-size: 14px;
+    line-height: 1.8;
+    letter-spacing: 0.1em;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border-radius: 5em;
+    padding: 0 12px;
+    display: inline-block;
+}
+
+.event-itemName{
+    margin-top: 4px;
+    font-size: 18px;
+    line-height: 1.8;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+}
+
+/* フッター */
+.footer{
+    text-align: center;
+}
+
+.footer-inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.footer-logo{
+    width: 200px;
+}
+
+.footer-corporateLink{
+    color: #666666;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.footer-snsList{
+    display:flex;
+    gap: 24px;
+}
+
+.footer-copyright{
+    text-align: center;
+    margin-top: 24px;
+    border-top: solid 1px #7F7FFB;
+    color: #ADADAD;
+    font-size: 10px;
+    padding: 24px;
+}
+
+
+
+
