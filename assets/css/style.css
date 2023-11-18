@@ -1,4 +1,40 @@
+.header {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #F8ebde;
+    border-bottom: solid 1px #EEEEEE;
+    padding: 0 24px;
+    z-index: 10000;
+    transition: background-color .3s linear;
+}
 
+.header-logo{
+    width: 148px;
+}
+
+.header-nav{
+    display:flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 48px;
+    list-style:none;
+}
+
+.header-navList{
+    display: flex;
+    gap: 32px;
+}
+
+.header-navItem{
+    color: #fccb00;
+    font-weight: bold;
+    font-size: 14px;
+}
 /* プログラミング */
 .title{
     font-size: 30px;
@@ -12,4 +48,3 @@
     color: black;
     align-items: center;
 }
-
