@@ -97,36 +97,35 @@
 .life__tab {
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 24px;
 }
-#tab{
-    text-align: center;
-    width: 50%;
-    background-color: #a5a5a5;
-    padding:20px 60px;
+.life__tab__button {
+    background: #a5a5a5;
+    color: #fff;
     border-radius: 10px 10px 0 0;
-    font-size: 20px;
-}
-
-
-
-/* .life__tab__button {
-    background: #fccb00;
-    /* color: #fff; */
-    /* border-radius: 10px 10px 0 0;
-    width: 50%;
+    width: 33.3333%;
     text-align: center;
     padding: 20px 8px;
-} */ 
-.life__tab__button[aria-selected=true] {
-    background: #F8ebde;
+}
+
+#tab{
+    background: #a5a5a5;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+    width: 50%;
+    text-align: center;
+    padding: 8px 8px;
+}
+
+#tab[aria-selected=true] {
+    background: #333;
     font-weight: bold;
 }
 .life__panel {
     border: solid 1px #333;
     padding: 32px 32px 40px;
 }
-.life__panel__item[aria-hidden=true] {
+#tab[aria-hidden=true] {
     display: none;
 }
 .life__panel__item__title {
@@ -137,6 +136,44 @@
     margin-top: 24px;
 }
 
+
+
+
+/* 入会方法 */
+.admission-list{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.admission-item{
+    border-radius: 10px;
+    overflow: hidden;
+    width: 320px;
+    flex-shrink: 0;
+    background-color: #F7F9Fb;
+    text-align: center;
+    margin: 10px;
+}
+
+.admission-itemImage img {
+    width: 100%;
+    height: 200px;
+}
+
+.admission-itemBody{
+    padding:20px;
+}
+
+.admission-itemName{
+    margin-top: 4px;
+    font-size: 18px;
+    line-height: 1.8;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+}
 
 
 /* プログラミング */
@@ -210,6 +247,7 @@
 }
 
 .language_title{
+
     font-size: 20px;
     font-family: ;
     color: black;
@@ -219,7 +257,7 @@
     font-size: 20px;
     font-family: ;
     color: black;
-}
+
 
 /* 友達 */
 
