@@ -137,15 +137,15 @@
     margin-right: 100px;
 }
 
-/* .title{
+.title{
     display: flex;
     font-size: 62px;
     color: black;
     justify-content: center;
     padding-top: 50px;
     font-weight: bold;
-    background: linear-gradient(transparent 80%, #cad 60%);
-} */
+    /* background: linear-gradient(transparent 80%, #cad 60%); */
+} 
 
 .title_exp{
     font-size: 20px;
@@ -195,6 +195,7 @@
 .language{
     display: flex;
     align-items: center;
+    padding-bottom: 50px;
 }
 
 .language_title{
@@ -207,8 +208,21 @@
     color: black;
 }
 
+.itTop{
+        background: url(../img/it.png) center center / cover no-repeat;
+        background-size: cover;
+        height: 25rem;
+    }
+
 
 /* 友達 */
+
+.friendTop{
+    background: url(../img/nakamayukie.jpg) center center / cover no-repeat;
+    background-size: cover;
+    height: 25rem;
+}
+
 .body-section{
     background-color: #fff9eb;
 }
@@ -344,6 +358,22 @@
     padding-left: 3rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    
+}
+
+.normalTitle2{
+    border: solid 2px #cad;
+    font-size: 36px;
+    line-height: 1.5;
+    letter-spacing: .05em;
+    font-weight: bold;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #fff;
+    color: black;
+    opacity: 0.5;
 }
 
 /* フッター */
