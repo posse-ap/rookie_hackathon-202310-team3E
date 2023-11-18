@@ -36,6 +36,8 @@
     color: #666464;
     font-weight: bold;
     font-size: 14px;
+    font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 /* メインビジュアル */
@@ -52,6 +54,8 @@
     margin-top: 150px;
     text-align: center;
     margin-bottom: 50px;
+    font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 .mainvisual-title{
@@ -75,6 +79,7 @@
     align-items: center;
     justify-content: center;
     opacity: 80%;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 .mainvisual-tip:hover{
@@ -84,6 +89,7 @@
 /* ページ共通 */
 .top_page title{
     margin-top: 40px;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 /* タブ切り替え */
 
@@ -190,6 +196,8 @@ cursor:pointer;
 
 .admission-itemBody{
     padding:20px;
+    
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 .admission-itemName{
@@ -205,6 +213,8 @@ cursor:pointer;
 
 .ITpro{
     background-color: #fff9eb;
+    
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 .ITpro_container{
@@ -227,6 +237,7 @@ cursor:pointer;
     color: black;
     text-align: center;
     padding-top: 40px;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 .newsite{
@@ -251,6 +262,7 @@ cursor:pointer;
 
 .newsite_name{
     padding: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 .newsite_name :hover{
@@ -272,6 +284,7 @@ cursor:pointer;
     align-items: center;
     padding-bottom: 20px;
     padding-top: 50px;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 .language_title{
@@ -357,6 +370,7 @@ cursor:pointer;
     font-size: 14px;
     line-height: 1.8;
     letter-spacing: .05em;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 .event-list{
@@ -385,6 +399,7 @@ cursor:pointer;
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 .event-itemBody{
     padding: 20px;
@@ -405,6 +420,7 @@ cursor:pointer;
     border-radius: 5em;
     padding: 0 12px;
     display: inline-block;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 .event-itemName{
@@ -413,6 +429,7 @@ cursor:pointer;
     line-height: 1.8;
     letter-spacing: 0.1em;
     font-weight: bold;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 .topSection{
@@ -439,7 +456,7 @@ cursor:pointer;
     padding-left: 3rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 .normalTitle2{
@@ -455,6 +472,7 @@ cursor:pointer;
     background-color: #fff;
     color: black;
     opacity: 0.5;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 
@@ -482,6 +500,7 @@ cursor:pointer;
     justify-content: flex-end;
     font-size: 30px;
     font-weight: bold;
+    font-family: 'Noto Sans JP', sans-serif;
     }
 
 .next :hover{
