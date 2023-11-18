@@ -120,10 +120,13 @@
 }
 
 .title{
+    display: inline;
     font-size: 30px;
     color: black;
-    align-items: center;
-    padding: 50px;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: bold;
+    background: linear-gradient(transparent 80%, #ff838b 60%);
 }
 
 .title_exp{
