@@ -1,3 +1,87 @@
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #F8ebde;
+    border-bottom: solid 1px #EEEEEE;
+    padding: 0 24px;
+    z-index: 10000;
+    transition: background-color .3s linear;
+}
+
+.header-logo{
+    width: 148px;
+}
+
+.header-nav{
+    display:flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 48px;
+    list-style:none;
+}
+
+.header-navList{
+    display: flex;
+    gap: 32px;
+}
+
+.header-navItem{
+    color: #fccb00;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.mainvisual{
+    background-color:#fccb00;
+    height: 60vh;
+    padding: 20px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainvisual-header{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.mainvisual-title{
+    font-size:60px ;
+}
+
+.mainvisual-main{
+    display: flex;
+    gap: 30px;
+}
+
+.mainvisual-tip{
+    background: #a5a5a5;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+    width: 33.3333%;
+    text-align: center;
+}
+/* プログラミング */
+.title{
+    font-size: 30px;
+    color: black;
+    align-items: center;
+
+}
+
+.title_exp{
+    font-size: 20px;
+    color: black;
+    align-items: center;
+}
+/* 友達 */
+
 .container{
     max-width: 980px;
     margin: 0 auto;
@@ -24,4 +108,23 @@
     letter-spacing: .05em;
     display: block;
     font-weight: bold;
+}
+.about-column{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    align-items: center;
+}
+
+.about-image{
+    border-radius: 10px;
+    overflow: hidden;
+    height: 250px;
+    width: auto;
+}
+
+.about-text{
+    font-size: 14px;
+    line-height: 1.8;
+    letter-spacing: .05em;
 }
