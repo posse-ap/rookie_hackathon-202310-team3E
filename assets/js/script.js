@@ -1,3 +1,20 @@
+
+document.addEventListener('DOMContentLoaded', function () {
+    new Splide('#js-eventSlide',eventSlideOptions).mount();
+});
+
+
+const eventSlideOptions={
+    type :`loop`,
+    gap :20,
+    perPage:3,
+    pagination:true,
+    // focus:0,
+    }
+
+
+    new Splide('#js-eventSlide',eventSlideOptions).mount();
+
 const tabs = document.querySelectorAll('[role="tab"]');
 const tabList = document.querySelector('[role="tablist"]');
 
@@ -28,3 +45,4 @@ grandparent.parentNode
 tabs.forEach(tab => {
 tab.addEventListener('click', changeTabs);
 });
+
