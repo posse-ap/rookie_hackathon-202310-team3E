@@ -93,7 +93,41 @@
 .container{
     margin: 0 auto;
 }
-.life__inner{
+
+.tab_group{
+    display: flex;
+    justify-content: center;
+}
+
+.tab{
+flex-grow: 1;
+padding:5px;
+list-style:none;
+border:solid 1px #CCC;
+text-align:center;
+cursor:pointer;
+}
+
+.panel_group{
+    height:100px;
+  border:solid 1px #CCC;
+  border-top:none;
+  background:#eee;
+}
+
+.panel{
+    display: none;
+}
+
+.tab.is-active{
+    background:#F00;
+  color:#FFF;
+  transition: all 0.2s ease-out;
+}
+.panel.is-show{
+    display: block;
+}
+/* .life__inner{
     max-width: 720px;
     margin: 0 auto;
 }
@@ -138,7 +172,7 @@
 }
 .life__panel__item__text {
     margin-top: 24px;
-}
+} */
 
 
 
