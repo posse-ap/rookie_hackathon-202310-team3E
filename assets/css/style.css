@@ -300,6 +300,7 @@ cursor:pointer;
 
 .body-section{
     background-color: #fff9eb;
+    max-width: 100%;
 }
 .container{
     max-width: 980px;
