@@ -1,4 +1,4 @@
-
+/* ヘッダー */
 .header {
     display: flex;
     align-items: center;
@@ -7,7 +7,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #F8ebde;
+    background-color: #ffffff;
     border-bottom: solid 1px #EEEEEE;
     padding: 0 24px;
     z-index: 10000;
@@ -22,6 +22,7 @@
     display:flex;
     align-items: center;
     margin-left: auto;
+    margin-right:auto;
     gap: 48px;
     list-style:none;
 }
@@ -32,13 +33,14 @@
 }
 
 .header-navItem{
-    color: #fccb00;
+    color: #666464;
     font-weight: bold;
     font-size: 14px;
 }
 
+/* メインビジュアル */
 .mainvisual{
-    background-color:#fccb00;
+    background-color:#cad;
     height: 60vh;
     padding: 20px 24px;
     display: flex;
@@ -62,12 +64,21 @@
 }
 
 .mainvisual-tip{
-    background: #a5a5a5;
+    background-color: #888;
     color: #fff;
     border-radius: 10px 10px 10px 10px;
-    width: 33.3333%;
-    height: 100px;
+    width:300px;
+    height: 150px;
     text-align: center;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 80%;
+}
+
+.mainvisual-tip:hover{
+    background-color: #333;
 }
 
 /* タブ切り替え */
@@ -262,4 +273,45 @@
     letter-spacing: 0.1em;
     font-weight: bold;
 }
+
+/* フッター */
+.footer{
+    text-align: center;
+}
+
+.footer-inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.footer-logo{
+    width: 200px;
+}
+
+.footer-corporateLink{
+    color: #666666;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.footer-snsList{
+    display:flex;
+    gap: 24px;
+}
+
+.footer-copyright{
+    text-align: center;
+    margin-top: 24px;
+    border-top: solid 1px #7F7FFB;
+    color: #ADADAD;
+    font-size: 10px;
+    padding: 24px;
+}
+
+
+
 
