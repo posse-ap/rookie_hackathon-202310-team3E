@@ -254,7 +254,7 @@ cursor:pointer;
 }
 
 .newsite_name :hover{
-    color: #7F7FFB;
+    color: blue;
 }
 
 
@@ -450,6 +450,25 @@ cursor:pointer;
     color: black;
     opacity: 0.5;
 }
+
+
+/* ネクストページ→ */
+.next{
+    display: flex ;
+    justify-content: flex-end;
+    font-size: 30px;
+    font-weight: bold;
+    }
+
+.next :hover{
+    color: blue;
+}
+
+.next p {
+    margin: 0; 
+    padding: 0;
+    }
+
 
 /* フッター */
 .footer{
