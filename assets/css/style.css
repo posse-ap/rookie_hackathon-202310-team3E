@@ -97,19 +97,28 @@
 .life__tab {
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 24px;
 }
-#tab{
-    text-align: center;
-    width: 50%;
-    background-color: #a5a5a5;
-    padding:20px 60px;
+.life__tab__button {
+    background: #a5a5a5;
+    color: #fff;
     border-radius: 10px 10px 0 0;
-    font-size: 20px;
+    width: 33.3333%;
+    text-align: center;
+    padding: 20px 8px;
 }
 
-.life__tab__button[aria-selected=true] {
-    background: #F8ebde;
+#tab{
+    background: #a5a5a5;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+    width: 50%;
+    text-align: center;
+    padding: 8px 8px;
+}
+
+#tab[aria-selected=true] {
+    background: #333;
     font-weight: bold;
 }
 .life__panel {
@@ -126,6 +135,7 @@
 .life__panel__item__text {
     margin-top: 24px;
 }
+
 
 
 
