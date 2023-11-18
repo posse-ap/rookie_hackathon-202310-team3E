@@ -86,6 +86,10 @@
     margin-top: 40px;
 }
 /* タブ切り替え */
+.life{
+    margin-top: 100px;
+}
+
 .container{
     margin: 0 auto;
 }
@@ -187,7 +191,7 @@
     margin-right: 100px;
 }
 
-.title{
+/* .title{
     display: flex;
     font-size: 62px;
     color: black;
@@ -195,7 +199,7 @@
     padding-top: 50px;
     font-weight: bold;
     background: linear-gradient(transparent 80%, #cad 60%);
-}
+} */
 
 .title_exp{
     font-size: 20px;
@@ -238,25 +242,20 @@
     font-size: 50px;
 }
 
-
-    
-
 .language{
     display: flex;
     align-items: center;
 }
 
 .language_title{
-
     font-size: 20px;
-    font-family: ;
     color: black;
 }
 
 .language_item{
     font-size: 20px;
-    font-family: ;
     color: black;
+}
 
 
 /* 友達 */
@@ -371,6 +370,31 @@
     font-weight: bold;
 }
 
+.topSection{
+    padding: 0 0 25px 0;
+}
+
+.friendTop{
+    background: url(../img/nakamayukie.jpg) center center / cover no-repeat;
+    background-size: cover;
+    height: 25rem;
+}
+
+.normalposition{
+    text-align: center;
+    padding-top: 11rem;
+}
+.normalTitle{
+    border: solid 2px #cad;
+    font-size: 36px;
+    line-height: 1.5;
+    letter-spacing: .05em;
+    font-weight: bold;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
 
 /* フッター */
 .footer{
@@ -408,5 +432,5 @@
     color: #ADADAD;
     font-size: 10px;
     padding: 24px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
 }
-
