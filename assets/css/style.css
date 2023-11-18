@@ -35,3 +35,16 @@
     font-weight: bold;
     font-size: 14px;
 }
+/* プログラミング */
+.title{
+    font-size: 30px;
+    color: black;
+    align-items: center;
+
+}
+
+.title_exp{
+    font-size: 20px;
+    color: black;
+    align-items: center;
+}
