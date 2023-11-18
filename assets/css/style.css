@@ -70,6 +70,47 @@
     text-align: center;
 }
 
+/* タブ切り替え */
+.container{
+    margin: 0 auto;
+}
+.life__inner{
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.life__tab {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.life__tab__button {
+    background: #a5a5a5;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+    width: 33.3333%;
+    text-align: center;
+    padding: 20px 8px;
+}
+.life__tab__button[aria-selected=true] {
+    background: #333;
+    font-weight: bold;
+}
+.life__panel {
+    border: solid 1px #333;
+    padding: 32px 32px 40px;
+}
+.life__panel__item[aria-hidden=true] {
+    display: none;
+}
+.life__panel__item__title {
+    font-size: 18px;
+    font-weight: bold;
+}
+.life__panel__item__text {
+    margin-top: 24px;
+}
+
 
 
 /* プログラミング */
