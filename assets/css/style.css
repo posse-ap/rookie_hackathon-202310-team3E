@@ -86,6 +86,10 @@
     margin-top: 40px;
 }
 /* タブ切り替え */
+.life{
+    margin-top: 100px;
+}
+
 .container{
     margin: 0 auto;
 }
@@ -221,7 +225,7 @@ cursor:pointer;
     margin-right: 100px;
 }
 
-.title{
+/* .title{
     display: flex;
     font-size: 62px;
     color: black;
@@ -229,7 +233,7 @@ cursor:pointer;
     padding-top: 50px;
     font-weight: bold;
     background: linear-gradient(transparent 80%, #cad 60%);
-}
+} */
 
 .title_exp{
     font-size: 20px;
@@ -272,25 +276,20 @@ cursor:pointer;
     font-size: 50px;
 }
 
-
-    
-
 .language{
     display: flex;
     align-items: center;
 }
 
 .language_title{
-
     font-size: 20px;
-    font-family: ;
     color: black;
 }
 
 .language_item{
     font-size: 20px;
-    font-family: ;
     color: black;
+}
 
 
 /* 友達 */
@@ -467,5 +466,5 @@ cursor:pointer;
     color: #ADADAD;
     font-size: 10px;
     padding: 24px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
 }
-
