@@ -22,20 +22,19 @@
     display:flex;
     align-items: center;
     margin-left: auto;
-    margin-right:auto;
-    gap: 48px;
+    margin-right: 40px;
     list-style:none;
 }
 
 .header-navList{
     display: flex;
-    gap: 32px;
+    gap: 150px;
 }
 
 .header-navItem{
     color: #666464;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 20px;
     font-family: 'Noto Sans JP', sans-serif;
 font-family: 'Plus Jakarta Sans', sans-serif;
 }
