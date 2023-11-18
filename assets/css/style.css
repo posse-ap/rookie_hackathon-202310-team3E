@@ -22,20 +22,21 @@
     display:flex;
     align-items: center;
     margin-left: auto;
-    margin-right:auto;
-    gap: 48px;
+    margin-right: 40px;
     list-style:none;
 }
 
 .header-navList{
     display: flex;
-    gap: 32px;
+    gap: 150px;
 }
 
 .header-navItem{
     color: #666464;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 /* メインビジュアル */
@@ -52,6 +53,8 @@
     margin-top: 150px;
     text-align: center;
     margin-bottom: 50px;
+    font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 .mainvisual-title{
@@ -75,6 +78,7 @@
     align-items: center;
     justify-content: center;
     opacity: 80%;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 .mainvisual-tip:hover{
@@ -84,6 +88,7 @@
 /* ページ共通 */
 .top_page title{
     margin-top: 40px;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 .title{
@@ -170,6 +175,8 @@
 
 .admission-itemBody{
     padding:20px;
+    
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 .admission-itemName{
@@ -185,6 +192,8 @@
 
 .ITpro{
     background-color: #fff9eb;
+    
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 .ITpro_container{
@@ -207,6 +216,7 @@
     color: black;
     text-align: center;
     padding-top: 40px;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 .newsite{
@@ -231,10 +241,11 @@
 
 .newsite_name{
     padding: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 .newsite_name :hover{
-    color: #7F7FFB;
+    color: blue;
 }
 
 
@@ -250,7 +261,9 @@
 .language{
     display: flex;
     align-items: center;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
+    padding-top: 50px;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 .language_title{
@@ -280,6 +293,7 @@
 
 .body-section{
     background-color: #fff9eb;
+    max-width: 100%;
 }
 .container{
     max-width: 980px;
@@ -297,6 +311,10 @@
     margin-top: 40px;
     padding-left: 5rem;
     padding-right: 5rem;
+    overflow:hidden;
+    margin-bottom: 50px;
+
+
 }
 
 .title-top{
@@ -331,6 +349,7 @@
     font-size: 14px;
     line-height: 1.8;
     letter-spacing: .05em;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 .event-list{
@@ -359,6 +378,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 .event-itemBody{
     padding: 20px;
@@ -379,6 +399,7 @@
     border-radius: 5em;
     padding: 0 12px;
     display: inline-block;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 .event-itemName{
@@ -387,6 +408,7 @@
     line-height: 1.8;
     letter-spacing: 0.1em;
     font-weight: bold;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 .topSection{
@@ -413,7 +435,7 @@
     padding-left: 3rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 .normalTitle2{
@@ -429,7 +451,47 @@
     background-color: #fff;
     color: black;
     opacity: 0.5;
+    font-family: 'Noto Sans JP', sans-serif;
 }
+
+
+.splide__arrow{
+    width: 40px !important;
+    height: 40px !important;
+    border: solid 1.5px #cad !important;
+    background-color: #FFFFFF !important;
+    opacity: 1 !important;
+}
+
+.splide__pagination__page.is-active {
+    background: #cad;
+}
+
+.splide__pagination__page {
+    background: #cad;
+}
+
+
+
+/* ネクストページ→ */
+.next{
+    display: flex ;
+    justify-content: flex-end;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Noto Sans JP', sans-serif;
+    }
+
+.next :hover{
+    color: blue;
+}
+
+.next p {
+    margin: 0; 
+    padding: 0;
+    }
+
+
 
 /* フッター */
 .footer{
