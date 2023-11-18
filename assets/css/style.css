@@ -140,29 +140,36 @@
 
 
 /* プログラミング */
+
+.ITpro{
+    background-color: #fff9eb;
+}
+
 .ITpro_container{
     margin-left: 100px;
     margin-right: 100px;
 }
 
 .title{
-    display: inline;
-    font-size: 30px;
+    display: flex;
+    font-size: 62px;
     color: black;
-    text-align: center;
+    justify-content: center;
     padding-top: 50px;
     font-weight: bold;
-    background: linear-gradient(transparent 80%, #ff838b 60%);
+    background: linear-gradient(transparent 80%, #cad 60%);
 }
 
 .title_exp{
     font-size: 20px;
     color: black;
     text-align: center;
+    padding-top: 40px;
 }
 
 .newsite{
-    padding: 130px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .newsite_item{
@@ -171,7 +178,6 @@
     flex-shrink: 0; 
     /* background-color: #F7F9FB; */
     text-align: center;
-    
 }
 
 .newsite_img{
@@ -192,7 +198,10 @@
     /* line-height: 1.8; */
     letter-spacing: 0.1em;
     font-weight: bold;
+    font-size: 50px;
 }
+
+
     
 
 .language{
@@ -201,15 +210,15 @@
 }
 
 .language_title{
-    font-size: 30px;
+    font-size: 20px;
     font-family: ;
-    color: rgb(7, 63, 44);
+    color: black;
 }
 
 .language_item{
-    font-size: 15px;
+    font-size: 20px;
     font-family: ;
-    color: rgb(7, 63, 44);
+    color: black;
 }
 
 /* 友達 */
