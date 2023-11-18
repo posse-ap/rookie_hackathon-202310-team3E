@@ -81,6 +81,10 @@
     background-color: #333;
 }
 
+/* ページ共通 */
+.top_page title{
+    margin-top: 40px;
+}
 /* タブ切り替え */
 .container{
     margin: 0 auto;
@@ -93,28 +97,19 @@
 .life__tab {
     display: flex;
     justify-content: center;
-    gap: 24px;
+    gap: 100px;
 }
-.life__tab__button {
-    background: #a5a5a5;
-    color: #fff;
-    border-radius: 10px 10px 0 0;
-    width: 33.3333%;
-    text-align: center;
-    padding: 20px 8px;
-}
-
 #tab{
-    background: #a5a5a5;
-    color: #fff;
-    border-radius: 10px 10px 0 0;
-    width: 50%;
     text-align: center;
-    padding: 8px 8px;
+    width: 50%;
+    background-color: #a5a5a5;
+    padding:20px 60px;
+    border-radius: 10px 10px 0 0;
+    font-size: 20px;
 }
 
-#tab[aria-selected=true] {
-    background: #333;
+.life__tab__button[aria-selected=true] {
+    background: #F8ebde;
     font-weight: bold;
 }
 .life__panel {
@@ -176,10 +171,13 @@
 }
 
 .title{
+    display: inline;
     font-size: 30px;
     color: black;
-    align-items: center;
-    padding: 50px;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: bold;
+    background: linear-gradient(transparent 80%, #ff838b 60%);
 }
 
 .title_exp{
