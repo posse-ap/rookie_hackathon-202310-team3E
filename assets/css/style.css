@@ -371,6 +371,31 @@
     font-weight: bold;
 }
 
+.topSection{
+    padding: 0 0 25px 0;
+}
+
+.friendTop{
+    background: url(../img/nakamayukie.jpg) center center / cover no-repeat;
+    background-size: cover;
+    height: 25rem;
+}
+
+.normalposition{
+    text-align: center;
+    padding-top: 11rem;
+}
+.normalTitle{
+    border: solid 2px #cad;
+    font-size: 36px;
+    line-height: 1.5;
+    letter-spacing: .05em;
+    font-weight: bold;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
 
 /* フッター */
 .footer{
