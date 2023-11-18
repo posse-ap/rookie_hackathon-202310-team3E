@@ -79,3 +79,31 @@
     color: black;
     align-items: center;
 }
+/* 友達 */
+.container{
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 24px;
+    box-sizing: content-box;
+}
+
+.section{
+    padding-top: 80px;
+    margin-top: -80px;
+}
+
+.section-body{
+    margin-top: 40px;
+}
+
+.title{
+    text-align: center;
+}
+
+.title-ja{
+    font-size: 36px;
+    line-height: 1.5;
+    letter-spacing: .05em;
+    display: block;
+    font-weight: bold;
+}
