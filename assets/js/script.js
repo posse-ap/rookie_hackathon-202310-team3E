@@ -69,4 +69,4 @@ const eventSlideOptions={
     tabs.forEach(tab => {
       tab.addEventListener('click', changeTabs);
     });
-    
+
