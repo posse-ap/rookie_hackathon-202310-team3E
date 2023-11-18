@@ -87,7 +87,6 @@
 }
 /* タブ切り替え */
 
-/* タブ */
 
 
 /* 入会方法 */
@@ -138,7 +137,7 @@
     margin-right: 100px;
 }
 
-.title{
+/* .title{
     display: flex;
     font-size: 62px;
     color: black;
@@ -146,7 +145,7 @@
     padding-top: 50px;
     font-weight: bold;
     background: linear-gradient(transparent 80%, #cad 60%);
-}
+} */
 
 .title_exp{
     font-size: 20px;
@@ -193,25 +192,20 @@
     font-size: 50px;
 }
 
-
-    
-
 .language{
     display: flex;
     align-items: center;
 }
 
 .language_title{
-
     font-size: 20px;
-    font-family: ;
     color: black;
 }
 
 .language_item{
     font-size: 20px;
-    font-family: ;
     color: black;
+}
 
 
 /* 友達 */
@@ -388,5 +382,5 @@
     color: #ADADAD;
     font-size: 10px;
     padding: 24px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
 }
-
