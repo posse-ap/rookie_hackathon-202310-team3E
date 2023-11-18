@@ -86,38 +86,24 @@
     margin-top: 40px;
 }
 /* タブ切り替え */
-.container{
-    margin: 0 auto;
-}
-.life__inner{
-    max-width: 720px;
-    margin: 0 auto;
-}
 
+.inner{
+    margin: 0 auto;
+    max-width: 720px;
+}
 .life__tab {
     display: flex;
-    justify-content: center;
     gap: 24px;
 }
 .life__tab__button {
     background: #a5a5a5;
     color: #fff;
     border-radius: 10px 10px 0 0;
-    width: 33.3333%;
+    width: 50%;
     text-align: center;
     padding: 20px 8px;
 }
-
-#tab{
-    background: #a5a5a5;
-    color: #fff;
-    border-radius: 10px 10px 0 0;
-    width: 50%;
-    text-align: center;
-    padding: 8px 8px;
-}
-
-#tab[aria-selected=true] {
+.life__tab__button[aria-selected=true] {
     background: #333;
     font-weight: bold;
 }
@@ -125,7 +111,7 @@
     border: solid 1px #333;
     padding: 32px 32px 40px;
 }
-#tab[aria-hidden=true] {
+.life__panel__item[aria-hidden=true] {
     display: none;
 }
 .life__panel__item__title {
@@ -136,8 +122,47 @@
     margin-top: 24px;
 }
 
+/* .life{
+    margin-top: 100px;
+}
 
+.container{
+    margin: 0 auto;
+}
 
+.tab_group{
+    display: flex;
+    justify-content: center;
+}
+
+.tab{
+flex-grow: 1;
+padding:5px;
+list-style:none;
+border:solid 1px #CCC;
+text-align:center;
+cursor:pointer;
+}
+
+.panel_group{
+    height:100px;
+  border:solid 1px #CCC;
+  border-top:none;
+  background:#eee;
+}
+
+.panel{
+    display: none;
+}
+
+.tab.is-active{
+    background:#F00;
+  color:#FFF;
+  transition: all 0.2s ease-out;
+}
+.panel.is-show{
+    display: block;
+} */
 
 /* 入会方法 */
 .admission-list{
@@ -177,29 +202,36 @@
 
 
 /* プログラミング */
+
+.ITpro{
+    background-color: #fff9eb;
+}
+
 .ITpro_container{
     margin-left: 100px;
     margin-right: 100px;
 }
 
 .title{
-    display: inline;
-    font-size: 30px;
+    display: flex;
+    font-size: 62px;
     color: black;
-    text-align: center;
+    justify-content: center;
     padding-top: 50px;
     font-weight: bold;
-    background: linear-gradient(transparent 80%, #ff838b 60%);
-}
+    /* background: linear-gradient(transparent 80%, #cad 60%); */
+} 
 
 .title_exp{
     font-size: 20px;
     color: black;
     text-align: center;
+    padding-top: 40px;
 }
 
 .newsite{
-    padding: 130px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .newsite_item{
@@ -208,7 +240,6 @@
     flex-shrink: 0; 
     /* background-color: #F7F9FB; */
     text-align: center;
-    
 }
 
 .newsite_img{
@@ -222,6 +253,10 @@
     padding: 20px;
 }
 
+.newsite_name :hover{
+    color: #7F7FFB;
+}
+
 
 .newsite-itemName {
     /* margin-top: 4px; */
@@ -229,27 +264,40 @@
     /* line-height: 1.8; */
     letter-spacing: 0.1em;
     font-weight: bold;
+    font-size: 50px;
 }
-    
 
 .language{
     display: flex;
     align-items: center;
+    padding-bottom: 50px;
 }
 
 .language_title{
-    font-size: 30px;
-    font-family: 
-    color: rgb(7, 63, 44);
+    font-size: 20px;
+    color: black;
 }
 
 .language_item{
-    font-size: 15px;
-    font-family: 
-    color: rgb(7, 63, 44);
+    font-size: 20px;
+    color: black;
 }
 
+.itTop{
+        background: url(../img/it.png) center center / cover no-repeat;
+        background-size: cover;
+        height: 25rem;
+    }
+
+
 /* 友達 */
+
+.friendTop{
+    background: url(../img/nakamayukie.jpg) center center / cover no-repeat;
+    background-size: cover;
+    height: 25rem;
+}
+
 .body-section{
     background-color: #fff9eb;
 }
@@ -385,6 +433,22 @@
     padding-left: 3rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    
+}
+
+.normalTitle2{
+    border: solid 2px #cad;
+    font-size: 36px;
+    line-height: 1.5;
+    letter-spacing: .05em;
+    font-weight: bold;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #fff;
+    color: black;
+    opacity: 0.5;
 }
 
 .splide__arrow{
@@ -441,5 +505,5 @@
     color: #ADADAD;
     font-size: 10px;
     padding: 24px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
 }
-
