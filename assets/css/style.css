@@ -86,6 +86,10 @@
     margin-top: 40px;
 }
 /* タブ切り替え */
+.life{
+    margin-top: 100px;
+}
+
 .container{
     margin: 0 auto;
 }
@@ -97,19 +101,28 @@
 .life__tab {
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 24px;
 }
-#tab{
-    text-align: center;
-    width: 50%;
-    background-color: #a5a5a5;
-    padding:20px 60px;
+.life__tab__button {
+    background: #a5a5a5;
+    color: #fff;
     border-radius: 10px 10px 0 0;
-    font-size: 20px;
+    width: 33.3333%;
+    text-align: center;
+    padding: 20px 8px;
 }
 
-.life__tab__button[aria-selected=true] {
-    background: #F8ebde;
+#tab{
+    background: #a5a5a5;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+    width: 50%;
+    text-align: center;
+    padding: 8px 8px;
+}
+
+#tab[aria-selected=true] {
+    background: #333;
     font-weight: bold;
 }
 .life__panel {
@@ -126,6 +139,7 @@
 .life__panel__item__text {
     margin-top: 24px;
 }
+
 
 
 
@@ -167,29 +181,36 @@
 
 
 /* プログラミング */
+
+.ITpro{
+    background-color: #fff9eb;
+}
+
 .ITpro_container{
     margin-left: 100px;
     margin-right: 100px;
 }
 
-.title{
-    display: inline;
-    font-size: 30px;
+/* .title{
+    display: flex;
+    font-size: 62px;
     color: black;
-    text-align: center;
+    justify-content: center;
     padding-top: 50px;
     font-weight: bold;
-    background: linear-gradient(transparent 80%, #ff838b 60%);
-}
+    background: linear-gradient(transparent 80%, #cad 60%);
+} */
 
 .title_exp{
     font-size: 20px;
     color: black;
     text-align: center;
+    padding-top: 40px;
 }
 
 .newsite{
-    padding: 130px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .newsite_item{
@@ -198,7 +219,6 @@
     flex-shrink: 0; 
     /* background-color: #F7F9FB; */
     text-align: center;
-    
 }
 
 .newsite_img{
@@ -219,8 +239,8 @@
     /* line-height: 1.8; */
     letter-spacing: 0.1em;
     font-weight: bold;
+    font-size: 50px;
 }
-    
 
 .language{
     display: flex;
@@ -228,19 +248,20 @@
 }
 
 .language_title{
-    font-size: 30px;
-    font-family: ;
-    color: rgb(7, 63, 44);
+    font-size: 20px;
+    color: black;
 }
 
 .language_item{
-    font-size: 15px;
-    font-family: ;
-    color: rgb(7, 63, 44);
+    font-size: 20px;
+    color: black;
 }
 
-/* 友達 */
 
+/* 友達 */
+.body-section{
+    background-color: #fff9eb;
+}
 .container{
     max-width: 980px;
     margin: 0 auto;
@@ -250,11 +271,17 @@
 
 .section{
     padding-top: 80px;
-    margin-top: -80px;
+    margin-top: 60px;
 }
 
 .section-body{
     margin-top: 40px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.title-top{
+    margin-top: 20px;
 }
 
 .title{
@@ -316,7 +343,7 @@
 }
 .event-itemBody{
     padding: 20px;
-    box-shadow: 10px 10px 0 0px;
+
 }
 
 .event-itemImage img{
@@ -328,7 +355,7 @@
     font-size: 14px;
     line-height: 1.8;
     letter-spacing: 0.1em;
-    background-color: var(--primary-color);
+    background-color: rgb(243, 155, 243);
     color: var(--white-color);
     border-radius: 5em;
     padding: 0 12px;
@@ -343,6 +370,31 @@
     font-weight: bold;
 }
 
+.topSection{
+    padding: 0 0 25px 0;
+}
+
+.friendTop{
+    background: url(../img/nakamayukie.jpg) center center / cover no-repeat;
+    background-size: cover;
+    height: 25rem;
+}
+
+.normalposition{
+    text-align: center;
+    padding-top: 11rem;
+}
+.normalTitle{
+    border: solid 2px #cad;
+    font-size: 36px;
+    line-height: 1.5;
+    letter-spacing: .05em;
+    font-weight: bold;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
 
 /* フッター */
 .footer{
@@ -380,5 +432,5 @@
     color: #ADADAD;
     font-size: 10px;
     padding: 24px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
 }
-
