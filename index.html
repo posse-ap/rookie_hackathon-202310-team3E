@@ -10,22 +10,21 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    
     <header class="header">
-            <a href="./" class="header-logo">
-                <img src="" alt="POSSE">
-            </a>
-            <nav class="header-nav">
-                <ul class="header-navList">
-                    <li class="header-navItem">
-                        <a  class="header-navlink">POSSEの生活
-                        </a>
-                    </li>
-                    <li class="header-navItem">
-                        <a  class="header-navlink">入会方法</a>
-                    </li>
-                </ul>
-            </nav>
+        <a href="./" class="header-logo">
+            <img src="./assets/img/logo.svg" alt="POSSE">
+        </a>
+        <nav class="header-nav">
+            <ul class="header-navList">
+                <li class="header-navItem">
+                    <a  class="header-navlink">POSSEの生活
+                    </a>
+                </li>
+                <li class="header-navItem">
+                    <a  class="header-navlink">入会方法</a>
+                </li>
+            </ul>
+        </nav>
     </header>
     <main>
         <section class="mainvisual">
@@ -34,32 +33,35 @@
                 <div class="mainvisual-subtitle">大学生プログラミングコミュニティPOSSE</div>
             </div>
             <div class="mainvisual-main">
-                <div class="mainvisual-tip">
-                    <div>
+                <div class="mainvisual-tip" id="IT">
+                    <div class="mainvisual-tip-sentence">
+                        <img src="../assets/img/pc.png" alt="PC">
                         <div>プログラミングしたい人へ</div>
                     </div>
                 </div>
-                <div class="mainvisual-tip">
-                    <div>
+                <div class="mainvisual-tip" id="friend">
+                    <div class="mainvisual-tip-sentence">
+                        <img src="../assets/img/friend.png" alt="friend">
                         <div>友達をたくさん作りたい人へ</div>
                     </div>
                 </div>
-                <div class="mainvisual-tip">
-                    <div>
+                <div class="mainvisual-tip" id="job">
+                    <div class="mainvisual-tip-sentence">
+                        <img src="../assets/img/power.png" alt="power-up">
                         <div>“ガクチカ”頑張りたい人へ</div>
                     </div>
                 </div>
             </div>
         </section>
-        
         <section class="life">
+            <div class="container">
             <div class="top_page title">
                 <p>POSSEの生活</p>
             </div>
             <div class="life__inner" role="tablist">
                 <div class="life__tab" role="tablist">
-                    <button class="life__tab__buttton" role="tab" aria-controls="panel1" aria-selected="true">活動</button>
-                    <button class="life__tab__buttton" role="tab" aria-controls="panel2" aria-selected="false">1週間の過ごし方</button>
+                    <button class="life__tab__buttton" id="tab" role="tab" aria-controls="panel1" aria-selected="true">活動</button>
+                    <button class="life__tab__buttton" id="tab" role="tab" aria-controls="panel2" aria-selected="false">1週間の過ごし方</button>
                 </div>
                 <div class="life__panel">
                     <div id="panel1" role="tabpanel" class="life__panel__item">
@@ -72,14 +74,82 @@
 
                 </div>
             </div>
+        </div>
+    </div>
         </section>
         <section class="admission">
-            <div class="top_page title">
-                <p>入会方法</p>
-            </div>
+            <ul class="admission-list">
+                <li class="admission-item">
+                    <figure class="admission-itemImage">
+                        <img src="" alt=""/>
+                    </figure>
+                    <div class="admission-itemBody">
+                        <p class="admission-itemName">①LINE追加</p>
+                        <p class="admission-itemtext">まずはLINEの追加をしましょう。今後の連絡はこのLINEを通してお知らせします。</p>
+                    </div>
+                </li>
+                <li class="admission-item">
+                    <figure class="admission-itemImage">
+                        <img src="" alt=""/>
+                    </figure>
+                    <div class="admission-itemBody">
+                        <p class="admission-itemName">②IT説明会（オンライン）</p>
+                        <p class="admission-itemtext">IT業界についてのセミナーを受けてみましょう！</p>
+                    </div>
+                </li>
+                <li class="admission-item">
+                    <figure class="admission-itemImage">
+                        <img src="" alt=""/>
+                    </figure>
+                    <div class="admission-itemBody">
+                        <p class="admission-itemName">③POSSE説明会（オンライン）</p>
+                        <p class="admission-itemtext">POSSEの具体的な活動や費用などの説明をします！</p>
+                    </div>
+                </li>
+                <li class="admission-item">
+                    <figure class="admission-itemImage">
+                        <img src="" alt=""/>
+                    </figure>
+                    <div class="admission-itemBody">
+                        <p class="admission-itemName">④交流会（オンライン）</p>
+                        <p class="admission-itemtext">実際にPOSSEの人とお話してみましょう！<br>わからないことは何でも聞いてください！</p>
+                    </div>
+                </li>
+                <li class="admission-item">
+                    <figure class="admission-itemImage">
+                        <img src="" alt=""/>
+                    </figure>
+                    <div class="admission-itemBody">
+                        <p class="admission-itemName">⑤手続きを確認して入会</p>
+                        <p class="admission-itemtext">最後に入会の手続きの説明をします。<br>これが終わるといよいよ入会です！</p>
+                    </div>
+                </li>
+            </ul>
         </section>
     </main>
-    <footer></footer>
+    <footer class="footer">
+        <div class="footer-inner">
+            <a href="./" class="footer-logo">
+                <img src="../assets/img/logo.svg" alt="POSSE" width="202" height="39">
+            </a>
+            <a href="http://posse-ap.com/"  class="footer-corporateLink" target="_blank" rel="noopener noreferrer">POSSE 公式サイト</a>
+            <ul class="footer-snsList">
+                <li class="footer-snsItem">
+                    <a href="https://line.me/R/ti/p/@651htnqp?from=page" class="footr-snsLink" target="_blank" rel="noopener noreferrer">
+                        <img src="../assets/img/icon-line.svg" width="40" height="40">
+                    </a>
+                </li>
+                <li class="footer-snsItem">
+                    <a href="https://instagram.com/posse_2023" class="footer-snsLink" target="_blank" rel="noopener noreferrer">
+                        <img src="../assets/img/icon-instagram.png" width="40" height="40">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-copyright">
+            <small lang="en">&copy; 2023 POSSE</small>
+        </div>
+    </footer>
 
     <script src="./assets/js/splide.min.js"></script>
     <script src="./assets/js/script.js"></script>
