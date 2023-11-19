@@ -87,7 +87,7 @@ font-family: 'Plus Jakarta Sans', sans-serif;
 
 /* ページ共通 */
 .top_page title{
-    margin-top: 40px;
+    margin-top: 20px;
     font-family: 'Noto Sans JP', sans-serif;
 }
 
@@ -103,7 +103,7 @@ font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 #hoge1Label {
-    padding: 10px 10px 0 10px;
+    padding: 10px 10px 2px 10px;
     border-radius: 3px;
     transition: 0.3s;
     background-color: rgb(186, 238, 255);
@@ -111,7 +111,7 @@ font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 #hoge2Label {
-    padding: 10px 10px 0 10px;
+    padding: 10px 10px 2px 10px;
     border-radius: 3px;
     transition: 0.3s;
 }
@@ -280,6 +280,7 @@ font-family: 'Plus Jakarta Sans', sans-serif;
         background: url(../img/it.png) center center / cover no-repeat;
         background-size: cover;
         height: 25rem;
+        margin-top: 80px;
     }
 
 
@@ -289,6 +290,7 @@ font-family: 'Plus Jakarta Sans', sans-serif;
     background: url(../img/nakamayukie.jpg) center center / cover no-repeat;
     background-size: cover;
     height: 25rem;
+    margin-top: 80px;
 }
 
 .body-section{
