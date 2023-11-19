@@ -149,6 +149,12 @@ font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 32px;
 }
 
+.figure{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* 入会方法 */
 .admission-list{
     display: flex;
