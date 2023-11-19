@@ -498,6 +498,109 @@ cursor:pointer;
     background: url(../img/gakutika.jpg) center center / cover no-repeat;
     background-size: cover;
     height: 25rem;
+    margin-top: 80px;
+}
+
+.introduce-hiro{
+    width: 250px;
+    height: 160px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 20px 0px 0px;
+}
+.introduce-ouka{
+    width: 250px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 20px 0px 0px;
+}
+.introduce-mochi{
+    width: 250px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 20px 0px 0px;
+}
+.introduce{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.introduce-tako{
+    margin-top: 100px;
+}s
+
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.bottom{
+    display: flex;
+    gap: 400px;
+    position: relative;
+}
+
+.introduce-hirobody{
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px -10px;
+    width: 250px;
+}
+
+.introduce-oukabody{
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px -10px;
+    width: 250px;
+}
+.introduce-mochibody{
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px -10px;
+    width: 250px;
+}
+.introduce-textbody{
+    background-color: rgb(232, 228, 224);
+    border-radius: 0px 0px 20px 20px;
+}
+
+.introduce-name{
+    color: #cad;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.introduce-text{
+    padding: 40px;
+    text-align: center;
+}
+
+.introduce-text{
+    padding: 40px;
+    text-align: center;
+}
+
+
+
+.all-body{
+    position: relative;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
 }
 
 
